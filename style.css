@@ -1,0 +1,25 @@
+body
+{
+    background-color: #444444;
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+    text-align: center;
+}
+
+input, button
+{
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgb(41, 54, 65);
+    border: 1px solid white;
+    color: white;
+    margin-bottom: 5px;
+}
+
+canvas
+{
+    border: 1px solid white;
+}
+
+
