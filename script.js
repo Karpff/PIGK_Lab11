@@ -1,5 +1,8 @@
 onReady(function () 
 {
+    console.log("1.0");
+
+
     let dataY = [];
     let dataX = [];
     let a = 5;
