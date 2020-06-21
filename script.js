@@ -78,9 +78,10 @@ onReady(function ()
         "ellipseBy": "xAxis",
     };
 
+    
     fetch("dane.json").then(response=>response.json()).then(json => 
     {
-        new CanvasXpress("canvas22", data22, config22);
+        new CanvasXpress("canvas22", json, config22);
     });   
 
     var config23 = 
